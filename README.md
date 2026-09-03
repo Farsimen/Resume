@@ -135,6 +135,16 @@ Edit the JSON files in `/data/` folder:
 - `resume-de.json` - German content
 - `resume-ar.json` - Arabic content
 
+### Optional Profile Photo
+
+The web version includes an optional profile-photo position in the footer. Add an image such as `assets/images/profile.jpg`, then add this field to each language file under `personal`:
+
+```json
+"photo": "../assets/images/profile.jpg"
+```
+
+If the field is omitted, the footer shows the candidate's initials. The photo position is hidden in print and PDF output to preserve an ATS-friendly international CV format.
+
 Example JSON structure:
 ```json
 {

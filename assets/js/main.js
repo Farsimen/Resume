@@ -384,8 +384,16 @@ class ResumeApp {
         }
         
         const year = new Date().getFullYear();
+        const name = this.resumeData.personal.name;
+        const initials = name.split(/\s+/).map((part) => part[0]).join('').slice(0, 2).toUpperCase();
+        const photo = this.resumeData.personal.photo;
         footer.innerHTML = `
-            <p>&copy; ${year} ${this.resumeData.personal.name}. All rights reserved.</p>
+            <div class="footer-profile" aria-label="Profile photo placeholder">
+                ${photo
+                    ? `<img src="${photo}" alt="${name}" class="footer-profile-image">`
+                    : `<span class="footer-profile-fallback" aria-hidden="true">${initials}</span>`}
+            </div>
+            <p>&copy; ${year} ${name}. All rights reserved.</p>
         `;
     }
 

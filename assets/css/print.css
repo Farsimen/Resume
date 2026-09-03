@@ -1,0 +1,214 @@
+/* ========================================
+   PRINT STYLES - International CV Standard
+   ======================================== */
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 12mm;
+    }
+
+    html, body {
+        background: #ffffff !important;
+        color: #111111 !important;
+        margin: 0;
+        padding: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        font-size: 10.5pt;
+        line-height: 1.45;
+    }
+
+    .toolbar,
+    .footer {
+        display: none !important;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        box-shadow: none !important;
+        border: none !important;
+        background: #ffffff !important;
+    }
+
+    .content {
+        padding: 0 !important;
+        background: #ffffff !important;
+    }
+
+    .header {
+        background: #111111 !important;
+        color: #ffffff !important;
+        border-bottom: 2px solid #111111 !important;
+        padding: 16mm 14mm 12mm !important;
+        box-shadow: none !important;
+    }
+
+    .header h1,
+    .header .title,
+    .contact-item,
+    .contact-item a {
+        color: #ffffff !important;
+    }
+
+    .header .title {
+        color: #ffffff !important;
+    }
+
+    .header h1 {
+        margin-bottom: 0.3rem !important;
+        font-size: 24pt !important;
+        letter-spacing: 0.03em !important;
+    }
+
+    .header .title {
+        font-size: 10pt !important;
+        letter-spacing: 0.12em !important;
+        text-transform: uppercase !important;
+        color: #ffffff !important;
+        margin-bottom: 0.6rem !important;
+    }
+
+    .contact-info {
+        justify-content: center !important;
+        gap: 0.4rem 0.8rem !important;
+        margin-top: 0.7rem !important;
+        font-size: 9pt !important;
+    }
+
+    .section {
+        margin-bottom: 7mm !important;
+        page-break-inside: avoid;
+    }
+
+    .section-title {
+        font-size: 10.5pt !important;
+        letter-spacing: 0.12em !important;
+        text-transform: uppercase !important;
+        border-bottom: 2px solid #111111 !important;
+        color: #111111 !important;
+        padding-bottom: 0.3rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+
+    .summary-text,
+    .job-entry,
+    .education-entry,
+    .project-entry,
+    .skill-category,
+    .personality-info {
+        background: transparent !important;
+        border: 1px solid #111111 !important;
+        border-left: 2px solid #111111 !important;
+        box-shadow: none !important;
+    }
+
+    .summary-text,
+    .personality-info,
+    .skill-category {
+        padding: 0.7rem 0.8rem !important;
+    }
+
+    .job-entry,
+    .education-entry,
+    .project-entry {
+        padding: 0.7rem 0.8rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .job-title {
+        font-size: 11pt !important;
+        color: #111111 !important;
+        font-weight: 700 !important;
+    }
+
+    .job-company {
+        color: #111111 !important;
+        font-weight: 700 !important;
+    }
+
+    .job-period {
+        background: transparent !important;
+        border: 1px solid #111111 !important;
+        color: #111111 !important;
+        font-size: 8.5pt !important;
+        font-style: italic !important;
+    }
+
+    .job-meta,
+    .job-location,
+    .job-highlights li,
+    .skill-item,
+    .summary-text,
+    .personality-assessment,
+    li,
+    p,
+    strong {
+        color: #111111 !important;
+    }
+
+    .job-highlights {
+        margin-left: 1rem !important;
+    }
+
+    .job-highlights li {
+        margin-bottom: 0.2rem !important;
+        line-height: 1.5 !important;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 0.5rem !important;
+    }
+
+    .skill-category-title {
+        color: #111111 !important;
+        font-weight: 700 !important;
+    }
+
+    .skill-item {
+        background: transparent !important;
+        border: 1px solid #111111 !important;
+        color: #111111 !important;
+    }
+
+    a {
+        color: #111111 !important;
+        text-decoration: underline !important;
+    }
+
+    a[href]:after {
+        content: "" !important;
+    }
+
+    ul, ol {
+        margin-left: 1.1rem !important;
+        padding-left: 0.4rem !important;
+    }
+
+    li {
+        margin-bottom: 0.2rem !important;
+    }
+}
+
+/* ========================================
+   PORTRAIT & LANDSCAPE
+   ======================================== */
+
+@page {
+    size: A4 portrait;
+    margin: 0.5in 0.5in 0.5in 0.5in;
+}
+
+/* Avoid orphans and widows */
+@media print {
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+}

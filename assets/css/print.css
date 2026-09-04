@@ -50,6 +50,14 @@
         box-shadow: none !important;
     }
 
+    .header-main {
+        display: block !important;
+    }
+
+    .profile-photo {
+        display: none !important;
+    }
+
     .header h1,
     .header .title,
     .contact-item,
@@ -87,6 +95,11 @@
         page-break-inside: avoid;
     }
 
+    .accordion-content {
+        display: block !important;
+        padding-top: 0 !important;
+    }
+
     .section-title {
         font-size: 10.5pt !important;
         letter-spacing: 0.12em !important;
@@ -95,6 +108,13 @@
         color: #111111 !important;
         padding-bottom: 0.3rem !important;
         margin-bottom: 0.6rem !important;
+        background: transparent !important;
+        border-radius: 0 !important;
+        cursor: default !important;
+    }
+
+    .section-title::after {
+        content: "" !important;
     }
 
     .summary-text,

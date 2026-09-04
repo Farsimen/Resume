@@ -12,7 +12,7 @@
   },
   "summary": {
     "title": "Professional Summary",
-    "text": "Highly motivated and results-oriented business professional with 14+ years of comprehensive experience in business development, sales operations, brand representation, and entrepreneurship across FMCG, retail, telecommunications, and digital sectors.\n\nProven expertise in market expansion, franchise development, strategic partnerships, retail management, merchandising, and digital business operations. Demonstrated ability to identify opportunities, build scalable operations, and drive sustainable growth in competitive markets.\n\nNaturally curious and adaptable professional who thrives in dynamic environments where innovation and continuous learning are valued. Committed to creating measurable value while growing personally and professionally alongside ambitious teams."
+    "text": "Business development and marketing specialist with 14+ years of experience in sales, market expansion, brand management, and entrepreneurship. Experienced across retail, FMCG, digital services, and strategic partnerships, with a practical focus on sustainable growth and measurable value."
   },
   "coreCompetencies": {
     "title": "Core Competencies",
@@ -141,6 +141,35 @@
         ]
       },
       {
+        "name": "Web & Digital Brand Projects",
+        "url": "https://melorinho.co",
+        "period": "Selected projects",
+        "description": "Development and management of web projects and digital presence for commercial brands",
+        "achievements": [
+          "Project: melorinho.co",
+          "Planned growth, content, and user experience across digital channels"
+        ]
+      },
+      {
+        "name": "Marcamg - Web Project",
+        "url": "https://marcamg.co/com/ir",
+        "period": "Selected project",
+        "description": "Web project and digital presence for a commercial brand",
+        "achievements": [
+          "Designed and managed the project's digital experience"
+        ]
+      },
+      {
+        "name": "VPNCloop - Open-source Project",
+        "url": "https://github.com/Farsimen/vpncloop",
+        "period": "Personal project",
+        "description": "Open-source technical project for developing and managing VPN services",
+        "achievements": [
+          "Maintained and developed on GitHub",
+          "Applied networking, infrastructure, and automation experience in a practical project"
+        ]
+      },
+      {
         "name": "Trading & Logistics Company",
         "period": "2020",
         "description": "Co-founded Sama Tejarat Daylam - Focused on online retail operations",
@@ -238,11 +267,7 @@
       {
         "category": "Software & Tools",
         "items": [
-          "Microsoft Word (Advanced)",
-          "Microsoft Excel (Advanced)",
-          "Microsoft PowerPoint (Advanced)",
-          "Microsoft Outlook (Advanced)",
-          "Microsoft Access (Advanced)",
+          "Microsoft Office Suite (Advanced)",
           "Adobe Photoshop (Intermediate)",
           "Microsoft Dynamics (Intermediate)",
           "Canvas (Intermediate)"

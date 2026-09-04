@@ -1,6 +1,6 @@
 # Professional Resume - Mohammad Pazhoohesh
 
-A modern, multilingual, ATS-optimized professional resume with support for English, German, and Arabic.
+A modern, multilingual, ATS-optimized professional resume with support for English, German, Arabic, and Persian.
 
 ## ✨ Features
 
@@ -8,6 +8,7 @@ A modern, multilingual, ATS-optimized professional resume with support for Engli
 - **English** (EN) - Default professional resume
 - **Deutsch** (DE) - German language version
 - **العربية** (AR) - Arabic (RTL) language version
+- **فارسی** (FA) - Persian (RTL) language version
 - Automatic language detection based on visitor's IP location
 - Manual language switcher for easy navigation
 
@@ -53,11 +54,13 @@ A modern, multilingual, ATS-optimized professional resume with support for Engli
 ├── pages/
 │   ├── resume-en.html        # English resume
 │   ├── resume-de.html        # German resume
-│   └── resume-ar.html        # Arabic resume (RTL)
+│   ├── resume-ar.html        # Arabic resume (RTL)
+│   └── resume-fa.html        # Persian resume (RTL)
 ├── data/
 │   ├── resume-en.json        # English content
 │   ├── resume-de.json        # German content
-│   └── resume-ar.json        # Arabic content
+│   ├── resume-ar.json        # Arabic content
+│   └── resume-fa.json        # Persian content
 ├── assets/
 │   ├── css/
 │   │   ├── style.css         # Main styles
@@ -117,12 +120,14 @@ The resume can be deployed to any static hosting service:
 1. **Automatic Language Detection**: Visitor's language is detected based on IP location
    - Germany → German version
    - Saudi Arabia / UAE → Arabic version
+   - Iran / Persian browser → Persian version
    - Others → English version
 
 2. **Manual Language Switching**: Use the language buttons in the toolbar
    - 🇺🇸 English
    - 🇩🇪 Deutsch
    - 🇸🇦 العربية
+   - 🇮🇷 فارسی
 
 3. **Export Options**:
    - Click "📥 Download PDF" to export as PDF
@@ -134,16 +139,17 @@ Edit the JSON files in `/data/` folder:
 - `resume-en.json` - English content
 - `resume-de.json` - German content
 - `resume-ar.json` - Arabic content
+- `resume-fa.json` - Persian content
 
 ### Optional Profile Photo
 
-The web version includes an optional profile-photo position in the footer. Add an image such as `assets/images/profile.jpg`, then add this field to each language file under `personal`:
+The web version includes an optional profile-photo position in the resume header. Add an image such as `assets/images/profile.jpg`, then add this field to each language file under `personal`:
 
 ```json
 "photo": "../assets/images/profile.jpg"
 ```
 
-If the field is omitted, the footer shows the candidate's initials. The photo position is hidden in print and PDF output to preserve an ATS-friendly international CV format.
+If the field is omitted, the header shows a discreet photo placeholder. The photo position is hidden in print and PDF output to preserve an ATS-friendly international CV format.
 
 Example JSON structure:
 ```json
@@ -204,6 +210,12 @@ For automatic deployments, connect the GitHub repository from the Cloudflare das
 - Right-to-left (RTL) layout
 - Arabic fonts (Google Fonts: Scheherazade New)
 - Professional Arabic business format
+
+### فارسی (FA)
+- Complete Persian translation
+- Right-to-left (RTL) layout
+- Persian font (Google Fonts: Vazirmatn)
+- Professional Persian business format
 
 ## 📊 ATS Compatibility
 

@@ -76,12 +76,12 @@
                 let targetLang = 'en'; // default
                 
                 // Determine language based on country or browser preference
-                if (country === 'DE' || browserLang.startsWith('de')) {
+                if (country === 'IR' || browserLang.startsWith('fa')) {
+                    targetLang = 'fa';
+                } else if (country === 'DE' || browserLang.startsWith('de')) {
                     targetLang = 'de';
-                } else if (country === 'SA' || country === 'AE' || country === 'IR' || browserLang.startsWith('ar')) {
+                } else if (country === 'SA' || country === 'AE' || browserLang.startsWith('ar')) {
                     targetLang = 'ar';
-                } else if (country === 'IR' || browserLang.includes('fa') || browserLang.includes('fa-IR')) {
-                    targetLang = 'en'; // Default to English for Iran (can support Farsi later)
                 }
                 
                 // Redirect to appropriate resume

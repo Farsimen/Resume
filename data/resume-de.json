@@ -12,7 +12,7 @@
   },
   "summary": {
     "title": "Berufliche Zusammenfassung",
-    "text": "Hochmotivierter und ergebnisorientierter Geschäftsfachmann mit 14+ Jahren umfassender Erfahrung in Geschäftsentwicklung, Vertriebsoperationen, Markenvertretung und Unternehmertum in den Bereichen FMCG, Einzelhandel, Telekommunikation und digitale Sektoren.\n\nBewährte Expertise in Marktexpansion, Franchise-Entwicklung, strategischen Partnerschaften, Einzelhandelsmanagement, Merchandising und digitalen Geschäftsvorgängen. Nachgewiesene Fähigkeit, Chancen zu identifizieren, skalierbare Operationen aufzubauen und nachhaltiges Wachstum in wettbewerbsintensiven Märkten zu fördern.\n\nNatürlicherweise neugierig und anpassungsfähiger Fachmann, der in dynamischen Umgebungen gedeiht, in denen Innovation und kontinuierliches Lernen geschätzt werden. Engagiert für die Schaffung messbarer Werte bei persönlichem und beruflichem Wachstum neben ehrgeizigen Teams."
+    "text": "Spezialist für Geschäftsentwicklung und Marketing mit über 14 Jahren Erfahrung in Vertrieb, Marktexpansion, Markenmanagement und Unternehmertum. Erfahrung in Einzelhandel, FMCG, digitalen Dienstleistungen und strategischen Partnerschaften mit praktischem Fokus auf nachhaltiges Wachstum und messbaren Wert."
   },
   "coreCompetencies": {
     "title": "Kernkompetenzen",
@@ -141,6 +141,35 @@
         ]
       },
       {
+        "name": "Web- und digitale Markenprojekte",
+        "url": "https://melorinho.co",
+        "period": "Ausgewählte Projekte",
+        "description": "Entwicklung und Verwaltung von Webprojekten und digitaler Präsenz für Marken",
+        "achievements": [
+          "Projekt: melorinho.co",
+          "Planung von Wachstum, Inhalten und Nutzererfahrung in digitalen Kanälen"
+        ]
+      },
+      {
+        "name": "Marcamg - Webprojekt",
+        "url": "https://marcamg.co/com/ir",
+        "period": "Ausgewähltes Projekt",
+        "description": "Webprojekt und digitale Präsenz für eine kommerzielle Marke",
+        "achievements": [
+          "Digitale Projekterfahrung gestaltet und verwaltet"
+        ]
+      },
+      {
+        "name": "VPNCloop - Open-Source-Projekt",
+        "url": "https://github.com/Farsimen/vpncloop",
+        "period": "Persönliches Projekt",
+        "description": "Technisches Open-Source-Projekt zur Entwicklung und Verwaltung von VPN-Diensten",
+        "achievements": [
+          "Pflege und Entwicklung auf GitHub",
+          "Praktische Anwendung von Netzwerk-, Infrastruktur- und Automatisierungserfahrung"
+        ]
+      },
+      {
         "name": "Handels- und Logistikunternehmen",
         "period": "2020",
         "description": "Mitgründer – Sama Tejarat Daylam – Fokus auf Online-Einzelhandelsbetriebe",
@@ -238,11 +267,7 @@
       {
         "category": "Software und Tools",
         "items": [
-          "Microsoft Word (Fortgeschritten)",
-          "Microsoft Excel (Fortgeschritten)",
-          "Microsoft PowerPoint (Fortgeschritten)",
-          "Microsoft Outlook (Fortgeschritten)",
-          "Microsoft Access (Fortgeschritten)",
+          "Microsoft Office Suite (Fortgeschritten)",
           "Adobe Photoshop (Mittelstufe)",
           "Microsoft Dynamics (Mittelstufe)",
           "Canvas (Mittelstufe)"
